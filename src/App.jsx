@@ -1,10 +1,11 @@
-import React from 'react'
 import './App.css'
-import { Button } from './components/ui/button'
+import Hero from './components/custom/Hero'
 
 const App = () => {
   return (
-    <Button>Hello World</Button>
+    <>
+    <Hero></Hero>
+    </>
   )
 }
 
